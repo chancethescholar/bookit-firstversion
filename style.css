@@ -1,0 +1,115 @@
+@font-face
+{
+  font-family: Anton;
+  src: url('webfontkit-anton/anton-regular-webfont.woff');
+}
+
+@font-face
+{
+  font-family: Anonymous Pro bold;
+  src: url('webfontkit-anonprobold/anonymouspro-bold-webfont.woff');
+}
+
+@font-face
+{
+  font-family: Anonymous Pro;
+  src: url('webfontkit-anonpro-regular/anonymouspro-regular-webfont.woff');
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+ul
+{
+  list-style-type: none;
+
+}
+
+ul #navbar li
+{
+  display: inline;
+}
+
+.navbar
+{
+  background-color: white;
+  color: black;
+  font-family: Anonymous Pro;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a
+{
+  float: left;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover
+{
+  background-color: #ddd;
+  color: grey;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active
+{
+  color: grey;
+}
+
+.navbar-left
+{
+  float: left;
+}
+/* Right-aligned section inside the top navigation */
+.navbar-right
+{
+  float: right;
+}
+
+.home
+{
+  background-color: black;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bookittext
+{
+  font-family: Anton;
+  font-size: 220px;
+  padding-right: 160px;
+  color: white;
+  float: right;
+  line-height: 85pt;
+}
+
+.abookrec
+{
+  font-family: Anonymous Pro;;
+  font-size: 45pt;
+  color: white;
+  line-height: 36pt;
+  margin-top: 410px;
+  margin-left: 850px;
+}
+
+.about
+{
+
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
