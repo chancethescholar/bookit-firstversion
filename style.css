@@ -325,6 +325,53 @@ ul #navbar li
   background-color: #717171;
 }
 
+.whatisbookit h1, .whatisbookit h2
+{
+  text-align: center;
+  color: white;
+}
+
+.whatisbookit h1
+{
+  font-family: American Typewriter;
+  font-size: 50pt;
+}
+
+.whatisbookit h2
+{
+  font-family: Anonymous Pro;
+  font-size: 20pt;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  color: white;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn btn-primary
+{
+  background-color: #0010EB;
+  color: white;
+
+}
+
+.getstarted
+{
+  font-family: American Typewriter;
+  text-align: center;
+  font-size: 60pt;
+  color: white;
+}
+
 html
 {
   scroll-behavior: smooth;

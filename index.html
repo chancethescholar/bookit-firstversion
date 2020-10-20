@@ -17,7 +17,8 @@
       <ul class="navbar" >
         <div class="navbar-left">
           <li style = "float: left"><img src = "pictures/logo.png" height = 60px width = 60px></li>
-          <li style = "float: left"><a class="nav-link" href="#home" style = "color: black">Home</a></li>
+          <li style = "float: left"><a class="nav-link" href="#home" style = "color: black" onclick="currentSlide(1)">Home</a></li>
+          <li style = "float: left"><a class="nav-link" href="#about" style = "color: black" onclick="currentSlide(2)">About</a></li>
         </div>
 
         <div class="navbar-right">
@@ -68,16 +69,34 @@
     </div>
   </div>
 
-<div class="hidden">
+  <div class="hidden">
+    <div class = "whatisbookit">
+        <br><br><br><h1>What is bookit?</h1>
+        <br><br><br><h2>bookit is a book recommendation website
+          <br>that allows users to
+          <br>create book recommendations,
+          <br>search through recommendations,
+          <br>and add books to a reading list.</h2>
+      </div>
+  </div>
 
-      <h1 style = "font-family: American Typewriter">About</h1>
-</div>
-
 <div class="hidden">
+  <div class = "row">
     <div class = "signuporlogin" style = "max-width">
-      <h1 style = "font-family: American Typewriter">Sign Up</h1>
-      <h1 style = "font-family: American Typewriter">Login</h1>
+      <br><br><br>
+      <h1 class = "getstarted">Let's get started!</h1><br><br>
+      <div class = "column">
+      <h2 style = "font-family: Anonymous Pro; font-size: 50pt">Don't have an account yet?</h2>
+      <br><br><h1 style = "font-family: Anonymous Pro; font-size: 40pt">Click to Sign up</h1>
+      <br><br><a style = "font-family: Comic Sans MS; text-align: center; width: 200px; height: 80px; font-size: 32pt;" class="btn btn-primary" href="signup.html" role="button">Sign Up</a>
     </div>
+    <div class = "column">
+      <h2 style = "font-family: Anonymous Pro; font-size: 50pt">Already have an account?</h2>
+      <br><br><h1 style = "font-family: Anonymous Pro; font-size: 40pt">Click to login</h1>
+      <br><br><a style = "font-family: Comic Sans MS; text-align: center; width: 200px; height: 80px; font-size: 32pt;" class="btn btn-primary" href="login.html" role="button">Login</a>
+    </div>
+    </div><br>
+  </div>
 </div>
 
 <!-- Next and previous buttons -->
