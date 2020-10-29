@@ -372,6 +372,15 @@ ul #navbar li
   color: white;
 }
 
+.vl {
+  border-left: 2px solid white;
+  height: 480px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 25%;
+}
+
 html
 {
   scroll-behavior: smooth;
